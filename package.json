@@ -14,5 +14,18 @@
   "dependencies": {
     "gm": "^1.21.1",
     "mkdirp": "^0.5.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erwingaitano/image-transformer.git"
+  },
+  "keywords": [
+    "image",
+    "transformer"
+  ],
+  "bugs": {
+    "url": "https://github.com/erwingaitano/image-transformer/issues"
+  },
+  "homepage": "https://github.com/erwingaitano/image-transformer#readme"
 }
