@@ -4,18 +4,16 @@ Command line utility to transform images using [GraphicsMagick](https://github.c
 
 ## Installation
 
-Clone the repo and
-
 ```
-$ npm install
+$ npm install -g image-transformer
 ```
 
 ## Usage
 
-From the command line
+In the command line
 
 ```
-$ image-transformer files output -- transformations
+$ image-transformer files output -- transformation=value transformation2=value2 ...
 ```
 
 Example:
@@ -30,4 +28,4 @@ The ouput files will be in the form `~/images/output/[name]-[transformation].[ex
 
 For now, I only tested it with transformations that requires only one parameter. In this case, resize only accepts the width parameter. In the future, it should be able to accept multiple params.
 
-Also, the transformations are not in series, meaning that only one transformation per file at a time.
+Also, the transformations are not in series, meaning that only one transformation is done per file at a time.
