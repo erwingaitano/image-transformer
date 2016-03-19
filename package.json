@@ -1,0 +1,18 @@
+{
+  "name": "@erwingaitano/image-transformer",
+  "version": "1.0.0",
+  "description": "Image manipulater using npm GraphicsMagick http://aheckmann.github.com/gm",
+  "main": "./bin/transformer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "image-transformer": "./bin/transformer.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gm": "^1.21.1",
+    "mkdirp": "^0.5.1"
+  }
+}
