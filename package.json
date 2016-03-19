@@ -1,6 +1,6 @@
 {
   "name": "image-transformer",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Command line utility to transform images using GraphicsMagick",
   "main": "./bin/transformer.js",
   "scripts": {
