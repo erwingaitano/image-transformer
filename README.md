@@ -13,16 +13,19 @@ $ npm install -g image-transformer
 In the command line
 
 ```
-$ image-transformer files output -- transformation=value transformation2=value2 ...
+$ image-transformer files outputDir -- transf1=val1 transf=val2 ...
 ```
 
-Example:
+The ouput files will be in the form `~/images/output/[name]-[transformation][value].[ext]`
+
+*Example:*
 
 ```
-$ image-transformer ~/images/*.(png|gif) ~/images/output -- resize=100
+$ image-transformer ~/images/*.jpg ~/images/output -- resize=100
 ```
 
-The ouput files will be in the form `~/images/output/[name]-[transformation].[ext]`
+
+*Note: You can use glob to select files.*
 
 ## Work in progress
 
